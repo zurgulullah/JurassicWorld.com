@@ -1,0 +1,664 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+/* ----- DEBUT DE MA PAGE HOME ----- */
+
+/* Début de mon header.headerhome */
+header.headerhome > img:first-of-type {
+    width: 100%;
+}
+
+/* Début de ma nav */
+header.headerhome nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 1;
+}
+
+header.headerhome nav ul {
+    text-align: center;
+    line-height: 70px;
+}
+
+header.headerhome nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: white;
+}
+
+header.headerhome nav ul li:hover {
+    padding: 10px;
+    border-top: 1px solid white;
+}
+
+header.headerhome nav ul .ligrey {
+    color: grey;
+}
+
+header.headerhome nav ul a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+header.headerhome nav ul a:focus {
+    color: #8DAE4F;
+}
+
+header.headerhome nav ul .btnbilleterie {
+    background-color: #1C5F81;
+    padding: 10px 30px;
+}
+
+header.headerhome nav ul .btnbilleterie:hover {
+    background-color: white;
+    padding: 10px 30px;
+    color: #1C5F81;
+}
+
+header.headerhome nav ul .fa-ticket-alt {
+    margin-right: 10px;
+    transform: rotate(135deg);
+}
+/* Fin de ma nav */
+
+header.headerhome div {
+    width: 100%;
+    position: absolute;
+    top: 130px;
+    text-align: center;
+}
+
+header.headerhome > img:last-of-type {
+    position: absolute;
+    right: 0;
+    top: 1063px;
+}
+/* Fin de mon header.headerhome */
+
+/* Début de mon main.mainhome */
+/* Début de ma première section */
+main.mainhome section:first-of-type {
+    width: 750px;
+    margin: 0 auto;
+}
+
+main.mainhome section:first-of-type div h1 {
+    text-align: center;
+    font-size: 3.3em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+
+main.mainhome section:first-of-type div figure img {
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    position: relative;
+    right: 40px;
+}
+
+main.mainhome section:first-of-type div figure:hover img {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+main.mainhome section:first-of-type div p {
+    margin: 40px 0;
+}
+
+main.mainhome section:first-of-type div h2 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+main.mainhome section:first-of-type div h2:first-of-type {
+    font-size: 1.9em;
+}
+
+main.mainhome section:first-of-type div h2:last-of-type {
+    margin-top: 0;
+}
+
+main.mainhome section:first-of-type div div {
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+main.mainhome section:first-of-type div div a {
+    background-color: #1C5F81;
+    width: 30%;
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+}
+
+
+main.mainhome section:first-of-type div div a:hover {
+    background-color: white;
+    color: #1C5F81;
+    border-top: 1px solid  #1C5F81;
+}
+/* Fin de ma 1ère section */
+
+/* Début de mon 2ème section */
+main.mainhome section:nth-of-type(2) {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+main.mainhome section:nth-of-type(2) div div img {
+    width: 4%;
+}
+/* Début de ma 1ère div */
+main.mainhome section:nth-of-type(2) div:first-of-type {
+    float: left;
+    width: 48%;
+}
+
+main.mainhome section:nth-of-type(2) div:first-of-type div {
+    width: 100%;
+}
+
+main.mainhome section:nth-of-type(2) div:first-of-type div p {
+    margin: 0;
+}
+
+main.mainhome section:nth-of-type(2) div:first-of-type div a {
+    background-color: #1C5F81;
+    width: 30%;
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+}
+
+main.mainhome section:nth-of-type(2) div:first-of-type div a:hover {
+    background-color: white;
+    color: #1C5F81;
+    border-top: 1px solid  #1C5F81;
+}
+/* fin de ma 1ère div */
+
+/* Début de ma 2ème div */
+main.mainhome section:nth-of-type(2) > div:last-of-type {
+    float: right;
+    width: 48%;
+}
+
+main.mainhome section:nth-of-type(2) div:last-of-type div {
+    width: 100%;
+}
+
+main.mainhome section:nth-of-type(2) div:last-of-type div p {
+    margin: 0;
+}
+
+main.mainhome section:nth-of-type(2) div:last-of-type div iframe {
+    margin-top: 20px;
+}
+/* Début de ma 2ème div */
+/* Fin de ma 2ème section */
+
+/* Début de ma 3ème section.partenaire */
+section.partenaire {
+    margin-top: 800px;
+}
+
+section.partenaire div {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+section.partenaire div h2 {
+    text-align: center;
+    font-size: 1.9em;
+}
+
+section.partenaire div img {
+    margin-left: 88px;
+    margin-right: 88px;
+    width: 7%;
+    height: 7%;
+}
+/* Fin de ma 3ème section.partenaire */
+/* Fin de mon main.exposition */
+
+/* Début de mon footer.footerhome */
+footer.footerhome {
+    background-color: black;
+    margin-top: 50px;
+    height: 250px;
+    padding-top: 200px;
+}
+
+footer.footerhome div:first-of-type {
+    float: left;
+    width: 1000px;
+    margin: 0 auto;
+    margin-left: 280px;
+}
+
+footer.footerhome div ul li {
+    list-style-type: none;
+    line-height: 30px;
+}
+
+footer.footerhome div ul a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer.footerhome div ul a:hover {
+    color: #1C5F81;
+}
+/* Fin de mon footer.footerexpo */
+
+/* ----- FIN DE MA PAGE HOME ----- */
+
+/* ----- DEBUT DE MA PAGE EXPOSITION ----- */
+
+/* Début de mon header.headerexpo */
+header.headerexpo {
+    width: 100%;
+    height: 440px;
+    background-image: url(../img/dinosaure.jpg);
+    background-size: 2000px 2000px;
+}
+
+/* Début de ma nav */
+header.headerexpo nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 1;
+}
+
+header.headerexpo nav ul {
+    text-align: center;
+    line-height: 70px;
+}
+
+header.headerexpo nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: white;
+}
+
+header.headerexpo nav ul li:hover {
+    padding: 10px;
+    border-top: 1px solid white;
+}
+
+header.headerexpo nav ul a:focus {
+    color: #8DAE4F;
+}
+
+header.headerexpo nav ul .ligrey {
+    color: grey;
+}
+
+header.headerexpo nav ul a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+header.headerexpo nav ul .btnbilleterie {
+    background-color: #1C5F81;
+    padding: 10px 30px;
+}
+
+header.headerexpo nav ul .btnbilleterie:hover {
+    background-color: white;
+    padding: 10px 30px;
+    color: #1C5F81;
+}
+
+header.headerexpo nav ul .fa-ticket-alt {
+    margin-right: 10px;
+    transform: rotate(135deg);
+}
+/* Fin de ma nav */
+
+header.headerexpo div {
+    width: 60%;
+    margin: 0 auto;
+}
+
+header.headerexpo div div:first-of-type {
+    width: 50%;
+    float: left;
+    margin-top: 150px;
+}
+
+header.headerexpo div div:first-of-type img {
+    width: 50%;
+}
+
+header.headerexpo div div:first-of-type h2 {
+    font-family: 'Magra', sans-serif;
+    color: white;
+    letter-spacing: 3px;
+    margin-left: 55px;
+}
+
+header.headerexpo div div:last-of-type {
+    width: 50%;
+    float: left;
+    margin-top: 200px;
+}
+
+header.headerexpo div div:last-of-type h1 {
+    color: white;
+    font-size: 4em;
+    letter-spacing: 5px;
+    text-shadow: 5px 5px black;
+    font-family: 'Magra', sans-serif;
+}
+/* Fin de mon header.headerexpo */
+
+/* Début de mon main.mainexpo */
+main.mainexpo {
+    width: 60%;
+    margin: 0 auto;
+}
+
+main.mainexpo h2 {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 100px;
+}
+
+/* Début de ma 1ère section */
+main.mainexpo section:first-of-type div {
+    float: left;
+    width: 45%;
+}
+
+main.mainexpo section:first-of-type div p {
+    line-height: 24px;
+}
+
+main.mainexpo section:first-of-type div figure img {
+    width: 570px;
+    height: 350px;
+    margin-left: 60px;
+    box-shadow: 0 0 10px grey;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+main.mainexpo section:first-of-type div figure:hover img {
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+/* Fin de ma 1ère section */
+
+main.mainexpo .mainmargin {
+    margin-top: 430px;
+}
+main.mainexpo .mainmargin {
+    line-height: 24px;
+}
+
+main.mainexpo h3 {
+    margin-top: 100px;
+    font-size: 2em;
+}
+
+/* Début de ma 2ème section */
+main.mainexpo section.btnexpo {
+    float: left;
+    height: 400px;
+    width: 28%;
+}
+
+main.mainexpo section.btnexpo a:first-of-type div:first-of-type {
+    background-color: #1C5F81;
+    height: 80px;
+    color: white;
+    line-height: 80px;
+}
+
+main.mainexpo section.btnexpo a:first-of-type div:first-of-type:hover {
+    background-color: white;
+    color: #1C5F81;
+}
+
+main.mainexpo section.btnexpo a div:nth-of-type(2), main.mainexpo section.btnexpo a div:last-of-type {
+    background-color: #F5F5F5;
+    color: black;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+main.mainexpo section.btnexpo a div:first-of-type:hover {
+    background-color: white;
+    color: #1C5F81;
+}
+
+main.mainexpo section.btnexpo a {
+    text-decoration: none;
+}
+/* Fin de ma 2ème section */
+
+/* Début de ma 3ème section */
+main.mainexpo section:last-of-type {
+    width: 68%;
+    float: right;
+    line-height: 24px;
+}
+
+main.mainexpo section:last-of-type div:first-of-type h4 {
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+main.mainexpo section:last-of-type > div:last-of-type {
+    margin-top: 40px;
+}
+
+main.mainexpo section:last-of-type > div:last-of-type p {
+    margin-top: 0;
+}
+
+main.mainexpo section:last-of-type div div {
+    width: 50%;
+    float: left;
+}
+
+main.mainexpo section:last-of-type div div img {
+    box-shadow: 0 0 10px grey;
+    width: 95%;
+    margin-left: 6%;
+}
+/* Fin de ma 3ème section */
+
+main.mainexpo .reservation {
+    text-align: center;
+    font-weight: bold;
+    width: 60%;
+    margin: 0 auto;
+    font-size: 1.4em;
+    margin-top: 800px;
+}
+
+main.mainexpo .reservation a {
+    background-color: #1C5F81;
+    width: 30%;
+    margin: 0 auto;
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+}
+
+main.mainexpo .reservation a:hover {
+    background-color: white;
+    color: #1C5F81;
+    border-top: 1px solid  #1C5F81;
+}
+/* Fin de mon main.mainexpo */
+
+/* Début de mon footer.footerexpo */
+footer.footerexpo {
+    background-color: black;
+    margin-top: 50px;
+    height: 500px;
+    padding-top: 50px;
+}
+
+footer.footerexpo section:first-of-type {
+    float: left;
+    width: 30%;
+    margin-left: 20%;
+}
+
+footer.footerexpo img {
+    width: 15%;
+    filter: grayscale(100%);
+    padding-right: 20px;
+}
+
+footer.footerexpo p {
+    color: white;
+}
+
+footer.footerexpo section div ul {
+    padding: 0;
+    margin-top: 40px;
+}
+
+footer.footerexpo section div ul li {
+    list-style-type: none;
+}
+
+footer.footerexpo section div ul a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+footer.footerexpo section div ul a:hover {
+    color: #1C5F81;
+}
+
+footer.footerexpo section:last-of-type {
+    float: right;
+    width: 30%;
+    margin-left: 20%;
+}
+
+footer.footerexpo section:last-of-type div:first-of-type {
+    padding-left: 100px;
+    margin-bottom: 100px;
+}
+
+footer.footerexpo section:last-of-type div i {
+    color: grey;
+    font-size: 2em;
+    padding-left: 20px;
+}
+
+footer.footerexpo section:last-of-type div i:hover {
+    color: #1C5F81;
+}
+/* Fin de mon footer.footerexpo */
+
+/* ----- FIN DE MA PAGE EXPOSITION ----- */
+
+/* ----- DEBUT DE MA PAGE FAQ ----- */
+
+/* Début de mon main.mainfaq */
+main.mainfaq section {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+main.mainfaq section .questionfaq {
+    padding: 20px 0;
+    border-bottom: 1px solid lightgray;
+}
+  
+main.mainfaq section label {
+    font-size: 1.5em;
+    margin: 0;
+    padding: 10px 10px 0 48px;
+    display: block;
+    cursor: pointer;
+    color: grey;
+}
+
+main.mainfaq section .inputfaq:checked ~ label {
+    color: black;
+}
+  
+main.mainfaq section .reponsefaq {
+    margin: 0 40px;
+    height: 0;
+    overflow: hidden;
+}
+  
+main.mainfaq section .inputfaq:checked ~ .reponsefaq {
+    height: auto;
+    opacity: 1;
+    padding: 20px;
+}
+  
+main.mainfaq section .chevronfaq {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 10px;
+    z-index: 1;
+    font-size: 25px;
+    line-height: 100%;
+    color: grey;
+}
+  
+main.mainfaq section .inputfaq:checked ~ .chevronfaq {
+    transform: rotate(90deg);
+    color: black;
+}
+  
+main.mainfaq section .inputfaq {
+    display: none;
+}
+/* Fin de mon main.mainfaq */
+
+/* ----- FIN DE MA PAGE FAQ ----- */
+
+/* Début de mon .clear */
+.clear {
+    clear: both;
+}
+/* Fin de mon .clear */
